@@ -51,3 +51,35 @@ Want to connect or collaborate?
 📧 [nahanonye@gmail.com](mailto:nahanonye@gmail.com)
 
 ---
+
+
+
+# Terraform IAM Role Demo
+
+I created and managed AWS IAM roles using Terraform as part of my cloud infrastructure learning.
+
+## What I did:
+
+- Initialized the Terraform project to set up the environment  
+- Validated the Terraform scripts to ensure correctness  
+- Planned the deployment to preview AWS changes  
+- Applied the configuration to create the IAM role  
+- Cleaned up resources to avoid unnecessary costs
+
+## Screenshots:
+
+### terraform init
+![Terraform Init](images/terraform-init.png)
+
+### terraform validate
+![Terraform Validate](images/terraform-validate.png)
+
+### terraform plan
+![Terraform Plan](images/terraform-plan.png)
+
+### terraform apply
+![Terraform Apply](images/terraform-apply.png)
+
+---
+
+This hands-on demo helped me gain confidence in Infrastructure as Code (IaC) using Terraform.
