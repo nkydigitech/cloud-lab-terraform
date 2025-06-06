@@ -1,53 +1,53 @@
 # cloud-lab-terraform
 
-A sandbox for learning and practicing Infrastructure as Code (IaC) using Terraform.  
-Includes simple examples for deploying cloud resources like AWS EC2 instances, S3 buckets, and IAM roles.
+Hi, I’m Nkechi Ahanonye 👋  
+This repo is where I practice Terraform and explore how infrastructure is managed in the cloud.
 
 ---
 
-## 📁 Project Structure
+## 🌍 What’s Inside
+
+A few basic Terraform configurations for AWS:
 
 ```
 cloud-lab-terraform/
-├── ec2-instance.tf        # Sample config to launch a basic EC2 VM
-├── s3-bucket.tf           # Provision an S3 bucket with versioning
-├── iam-role.tf            # Define a basic IAM role
-└── variables.tf           # Parameterized inputs for reuse
+├── ec2-instance.tf      # Launch a test EC2 VM
+├── s3-bucket.tf         # Create an S3 bucket with versioning
+├── iam-role.tf          # Sample IAM role setup
+└── variables.tf         # Inputs for customization
 ```
 
 ---
 
-## 🚀 How to Use
-
-> These examples assume you're using AWS and have the AWS CLI configured.
+## 🛠️ How I Use It
 
 ```bash
-# Initialize Terraform
-terraform init
-
-# Preview changes
-terraform plan
-
-# Apply configuration
-terraform apply
-
-# Destroy resources
-terraform destroy
+terraform init      # Set up the working directory
+terraform plan      # Check the deployment plan
+terraform apply     # Create the resources
+terraform destroy   # Tear everything down
 ```
 
----
-
-## 🧠 Learning Goals
-
-- Understand Terraform syntax and structure  
-- Practice basic provisioning on AWS  
-- Build confidence in cloud infrastructure management  
+Requires:
+- Terraform installed
+- AWS CLI configured with credentials
 
 ---
 
-## ✍️ About
+## 📚 Why I’m Doing This
 
-Maintained by **[Nkechi Ahanonye](mailto:nahanonye@gmail.com)** —  
-Certified in Cloud & IT, currently exploring DevOps with tools like Terraform, Docker, and GitHub Actions.
+- To understand how Terraform works  
+- To gain confidence with AWS resources  
+- To prepare for DevOps roles where cloud automation is key  
+
+---
+
+## 🙋🏽‍♀️ About Me
+
+I’m an IT Support Specialist moving into DevOps.  
+Learning in public helps me stay accountable — and maybe help others doing the same.
+
+Want to connect or collaborate?  
+📧 [nahanonye@gmail.com](mailto:nahanonye@gmail.com)
 
 ---
